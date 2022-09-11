@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char myStr[] = "with proper grammar, but the outcome is a piece of art,\n";
+	char myStr[] = "with proper grammar, but the outcome is a piece of art,";
 
 	puts(myStr);
 	return (0);
