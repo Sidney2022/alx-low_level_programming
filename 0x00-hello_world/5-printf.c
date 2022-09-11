@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-	char myStr[] = "with proper grammar, but the outcome is a piece of art,";
+	char myVar[] = "with proper grammar, but the outcome is a piece of art,";
 
-	puts(myStr);
+	printf("%s\n", myVar);
 	return (0);
 }
