@@ -18,8 +18,12 @@ int main(void)
 	{
 		c = ch[i];
 		_putchar(c);
-		i++
+		i++;
 	}
-	_putchar("\n");
+	_putchar('\n');
 	return (0);
+}
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
