@@ -20,7 +20,7 @@ int main(void)
 		n1 = n2;
 		n2 = n3;
 
-		if (inc == 49)
+		if (inc == 97)
 			printf("\n");
 		else
 			printf(", ");
