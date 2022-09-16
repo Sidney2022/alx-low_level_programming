@@ -3,16 +3,16 @@
 /**
  * print_numbers - function to print numbers from 0-9
  *
- * Return: numbers 0 - 9 
+ * Return: numbers 0 - 9
  */
 
 void print_numbers(void)
 {
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 48; i < 57; i++)
 	{
 		_putchar(i);
 	}
-	return (0);
+	_putchar('\n');
 }
