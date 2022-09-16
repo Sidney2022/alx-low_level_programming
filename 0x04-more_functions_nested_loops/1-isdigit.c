@@ -10,9 +10,8 @@
 
 int _isdigit(int c)
 {
-	if (isdigit(c))
+	if (c >= 48 && c <= 5)
 	{
-		_putchar();
 		return (1);
 	}
 	return (0);
