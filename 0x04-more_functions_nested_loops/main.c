@@ -2,15 +2,15 @@
 
 int main(void)
 {
-	int i;
+	int count;
+	int n;
 
-	for (i = 48; i <= 57; i++)
+	for (count = 0; count <= 10; count++)
 	{
-		if (i == 50 || i == 52)
+		for (n = 0; n <= 14; n++)
 		{
-			continue;
+			printf("%d", n);
 		}
-		else
-			printf("%d\n", i);
+		printf("\n");
 	}
 }
